@@ -1,0 +1,33 @@
+﻿Сборка начата 09.11.2023 16:29:55.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\asm_1\asm_1\asm_1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\asm_1.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling LP_asm.asm...
+         cmd.exe /C "C:\Users\fflly\AppData\Local\Temp\tmpa880c6d22d664e5491acb18d7e711324.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\LP_asm.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaLP_asm.asm
+     1>LP_asm.asm(1): error A2008: syntax error : .
+     1>LP_asm.asm(2): error A2008: syntax error : .
+     1>LP_asm.asm(8): error A2008: syntax error : .
+     1>LP_asm.asm(23): error A2008: syntax error : MessageBoxA
+     1>LP_asm.asm(29): error A2008: syntax error : main
+     1>LP_asm.asm(29): error A2088: END directive required at end of file
+     1>D:\Progi\Visla\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\LP_asm.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaLP_asm.asm" с кодом "1".
+     1>Сборка проекта "D:\project\asm_1\asm_1\asm_1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\project\asm_1\asm_1\asm_1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         LP_asm.asm(1): error A2008: syntax error : .
+         LP_asm.asm(2): error A2008: syntax error : .
+         LP_asm.asm(8): error A2008: syntax error : .
+         LP_asm.asm(23): error A2008: syntax error : MessageBoxA
+         LP_asm.asm(29): error A2008: syntax error : main
+         LP_asm.asm(29): error A2088: END directive required at end of file
+         D:\Progi\Visla\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\LP_asm.obj" /Fl"x64\Debug\\" /W3 /errorReport:prompt  /TaLP_asm.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 7
+
+Прошло времени 00:00:00.23

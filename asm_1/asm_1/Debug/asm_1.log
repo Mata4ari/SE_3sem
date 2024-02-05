@@ -1,0 +1,19 @@
+﻿Сборка начата 09.11.2023 16:49:24.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\asm_1\asm_1\asm_1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\asm_1.tlog\unsuccessfulbuild".
+       _MASM:
+       Целевой объект "_MASM" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         asm_1.vcxproj -> D:\project\asm_1\Debug\asm_1.exe
+       FinalizeBuildStatus:
+         Файл "Debug\asm_1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\asm_1.tlog\asm_1.lastbuildstate".
+     1>Сборка проекта "D:\project\asm_1\asm_1\asm_1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.11

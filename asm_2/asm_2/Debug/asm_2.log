@@ -1,0 +1,21 @@
+﻿Сборка начата 15.11.2023 16:31:37.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\asm_2\asm_2\asm_2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\asm_2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling Source.asm...
+         cmd.exe /C "C:\Users\fflly\AppData\Local\Temp\tmp60d98814340b433b876d802e82ead64a.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Source.obj" /W3 /errorReport:prompt  /TaSource.asm
+       Link:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\asm_2\Debug\asm_2.exe" /INCREMENTAL /ILK:"Debug\asm_2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\asm_2\Debug\asm_2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\asm_2\Debug\asm_2.lib" /MACHINE:X86 Debug\Source.obj
+         asm_2.vcxproj -> D:\project\asm_2\Debug\asm_2.exe
+       FinalizeBuildStatus:
+         Файл "Debug\asm_2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\asm_2.tlog\asm_2.lastbuildstate".
+     1>Сборка проекта "D:\project\asm_2\asm_2\asm_2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.96

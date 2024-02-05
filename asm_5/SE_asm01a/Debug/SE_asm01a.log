@@ -1,0 +1,23 @@
+﻿Сборка начата 30.11.2023 20:05:38.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\asm_5\SE_asm01a\SE_asm01a.vcxproj" в узле 3 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\SE_asm01a.tlog\SE_asm01a.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\SE_asm01a.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling asm.asm...
+         cmd.exe /C "C:\Users\fflly\AppData\Local\Temp\tmp3989d35ed6724dcd99f0af23c90ce73e.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\asm.obj" /W3 /errorReport:prompt  /Taasm.asm
+       Lib:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\Lib.exe /OUT:"D:\project\asm_5\Debug\SE_asm01a.lib" /NOLOGO /MACHINE:X86 Debug\asm.obj
+         SE_asm01a.vcxproj -> D:\project\asm_5\Debug\SE_asm01a.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_asm01a.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_asm01a.tlog\SE_asm01a.lastbuildstate".
+     1>Сборка проекта "D:\project\asm_5\SE_asm01a\SE_asm01a.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.44

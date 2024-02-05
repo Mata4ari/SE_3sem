@@ -1,0 +1,22 @@
+﻿Сборка начата 30.11.2023 20:05:38.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\asm_5\SE_asm01d\SE_asm01d.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\SE_asm01d.tlog\SE_asm01d.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\SE_asm01d.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"D:\project\asm_5\Debug\SE_asm01d.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt SE_asm01d.cpp
+         SE_asm01d.cpp
+       Lib:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\Lib.exe /OUT:"D:\project\asm_5\Debug\SE_asm01d.lib" /NOLOGO /MACHINE:X86 Debug\SE_asm01d.obj
+         SE_asm01d.vcxproj -> D:\project\asm_5\Debug\SE_asm01d.lib
+       FinalizeBuildStatus:
+         Файл "Debug\SE_asm01d.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_asm01d.tlog\SE_asm01d.lastbuildstate".
+     1>Сборка проекта "D:\project\asm_5\SE_asm01d\SE_asm01d.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.33

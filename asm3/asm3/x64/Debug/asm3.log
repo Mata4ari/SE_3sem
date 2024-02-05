@@ -1,0 +1,17 @@
+﻿Сборка начата 21.11.2023 12:00:44.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\asm3\asm3\asm3.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\project\asm3\x64\Debug\".
+         Создание каталога "x64\Debug\asm3.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\asm3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       FinalizeBuildStatus:
+         Файл "x64\Debug\asm3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\asm3.tlog\asm3.lastbuildstate".
+     1>Сборка проекта "D:\project\asm3\asm3\asm3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.10

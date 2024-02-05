@@ -1,0 +1,57 @@
+﻿Сборка начата 06.09.2023 11:00:09.
+Уровень детализации журнала: Normal.     1>Проект "D:\project\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>PrepareForBuild:
+         Создание каталога "D:\project\SE_Lab14\Release\".
+         Создание каталога "Release\SE_Lab14.tlog\".
+       InitializeBuildStatus:
+         Создание "Release\SE_Lab14.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yc"stdafx.h" /Fp"Release\SE_Lab14.pch" /Fo"Release\\" /Fd"Release\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Error.cpp In.cpp Log.cpp main.cpp Out.cpp Parm.cpp
+         Error.cpp
+         In.cpp
+     1>D:\project\SE_Lab14\SE_Lab14\In.cpp(11,28): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\project\SE_Lab14\SE_Lab14\In.cpp(13,22): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+         Log.cpp
+     1>D:\project\SE_Lab14\SE_Lab14\Log.cpp(10,28): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\project\SE_Lab14\SE_Lab14\Log.cpp(12,23): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+     1>D:\project\SE_Lab14\SE_Lab14\Log.cpp(34,22): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\project\SE_Lab14\SE_Lab14\Log.cpp(54,22): warning C4018: <: несоответствие типов со знаком и без знака
+         main.cpp
+         Out.cpp
+     1>D:\project\SE_Lab14\SE_Lab14\Out.cpp(10,28): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\project\SE_Lab14\SE_Lab14\Out.cpp(12,23): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+         Parm.cpp
+       Link:
+         D:\Progi\Visla\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\SE_Lab14\Release\SE_Lab14.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\SE_Lab14\Release\SE_Lab14.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Release\SE_Lab14.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\SE_Lab14\Release\SE_Lab14.lib" /MACHINE:X86 /SAFESEH Release\Error.obj
+         Release\In.obj
+         Release\Log.obj
+         Release\main.obj
+         Release\Out.obj
+         Release\Parm.obj
+         Создание кода
+         Previous IPDB not found, fall back to full compilation.
+         All 175 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         SE_Lab14.vcxproj -> D:\project\SE_Lab14\Release\SE_Lab14.exe
+       FinalizeBuildStatus:
+         Файл "Release\SE_Lab14.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Release\SE_Lab14.tlog\SE_Lab14.lastbuildstate".
+     1>Сборка проекта "D:\project\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\project\SE_Lab14\SE_Lab14\SE_Lab14.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\project\SE_Lab14\SE_Lab14\In.cpp(11,28): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\project\SE_Lab14\SE_Lab14\In.cpp(13,22): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+         D:\project\SE_Lab14\SE_Lab14\Log.cpp(10,28): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\project\SE_Lab14\SE_Lab14\Log.cpp(12,23): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+         D:\project\SE_Lab14\SE_Lab14\Log.cpp(34,22): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\project\SE_Lab14\SE_Lab14\Log.cpp(54,22): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\project\SE_Lab14\SE_Lab14\Out.cpp(10,28): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\project\SE_Lab14\SE_Lab14\Out.cpp(12,23): warning C4244: =: преобразование "wchar_t" в "char", возможна потеря данных
+
+    Предупреждений: 8
+    Ошибок: 0
+
+Прошло времени 00:00:09.10

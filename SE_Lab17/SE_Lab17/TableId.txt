@@ -1,0 +1,58 @@
+fi	1
+fix	1
+fiy	1
+fiz	3
+fiz	3
+fix	1
+fix	1
+fiy	1
+fiz	3
+fs	7
+fsa	7
+fsb	7
+fsc	9
+subst	10
+substa	10
+substp	10
+substn	11
+substc	12
+subst	10
+substa	10
+L1	12	1
+L2	12	3
+substb	12
+substc	12
+main	15
+mainx	17
+mainy	18
+mainz	19
+mainsa	20
+mainsb	21
+mainsc	22
+mainx	17
+L3	23	1
+mainstrle	24
+mainp	24
+mainx	17
+L4	25	1
+mainy	18
+L5	26	5
+mainsa	20
+L6	27	1234567890
+mainsb	21
+L7	28	1234567890
+mainz	19
+fi	1
+mainx	17
+mainy	18
+mainsc	22
+fs	7
+mainsa	20
+mainsb	21
+L8	31	контрольный пример
+mainz	19
+L9	33	4
+mainsc	22
+mainstrle	24
+mainsc	22
+L10	36	0

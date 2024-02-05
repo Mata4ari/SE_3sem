@@ -1,0 +1,38 @@
+#pragma once
+#define IN_MAX_LEN_TEXT 1024*1024
+#define IN_CODE_ENDL '\n'
+
+
+#define IN_CODE_TABLE {\
+	INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,'|',INP::F,INP::F,INP::I,INP::F,INP::F,\
+	INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,\
+	INP::T,INP::T,INP::F,INP::F,INP::F,INP::F,INP::F,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::F,INP::T,\
+	INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::F,INP::T,INP::F,INP::T,INP::F,INP::F,\
+	INP::F,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,\
+	INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::F,INP::F,INP::F,INP::F,INP::F,\
+	INP::F,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,\
+	INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::F,INP::T,INP::F,INP::F,\
+	\
+	INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,\
+	INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,\
+	INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,\
+	INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,INP::F,\
+	INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,\
+	INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,\
+	INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,\
+	INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T,INP::T\
+}
+
+namespace In
+{
+	struct INP
+	{
+		enum { T = 1024, F = 2048, I = 4096 };
+		int size = 0;
+		int lines = 1;
+		int ignore = 0;
+		unsigned char* text;
+		int code[256] = IN_CODE_TABLE;
+	};
+	INP getin(wchar_t infile[]);
+}
